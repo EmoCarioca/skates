@@ -25,6 +25,7 @@ footer {
 
     & nav {
         display: flex;
+        max-width: 500px;
         gap: 2rem;
 
         & a {
