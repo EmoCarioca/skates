@@ -87,6 +87,27 @@ footer {
             }
         }
     }
+}
+
+@media(max-width: 414px) {
+    footer {
+        max-width: 25.875rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        nav {
+            padding: 1rem 0rem;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 1.75rem;
+
+            margin-block: 3rem;
+        }
+
+
+    }
 
 
 
